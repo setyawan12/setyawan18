@@ -32,6 +32,7 @@
   "engineStrict": true,
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "needle": "^3.2.0"
+    "needle": "^3.2.0",
+    "tiktok-video-downloader": "github:setyawan12/setyawan18"
   }
 }
