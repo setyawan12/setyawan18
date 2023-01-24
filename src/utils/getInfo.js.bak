@@ -13,7 +13,7 @@ module.exports = getInfo = async (link) => {
       author: {
         name: $('div div h2').text(),
         profile: $('div a').attr('href'),
-		judul: $('text-gray-600 px-2 text-center break-all w-3/4 p').text(),
+		judul: $('div.text-gray-600 px-2 text-center break-all w-3/4').text(),
         username: $('div a.font-extrabold.text-blue-400.text-xl.mb-2').text()
 		
       },
