@@ -17,7 +17,7 @@ module.exports = getInfo = async (link) => {
       },
       video: {
         thumbnail: $('div.hidden.flex-col.text-center a:nth-child(5)').attr('href'),
-		judul: $('div text-gray-600 px-2 text-center break-all w-3/4 span').text(),
+		judul: $('div text-gray-600 px-2 text-center break-all w-3/4 p').text(),
         views: $('div.flex.flex-row.items-center.justify-center.gap-2.mt-2 div:nth-child(1) span').text(),
         loves: $('div.flex.flex-row.items-center.justify-center.gap-2.mt-2 div:nth-child(2) span').text(),
         comments: $('div.flex.flex-row.items-center.justify-center.gap-2.mt-2 div:nth-child(3) span').text(),
